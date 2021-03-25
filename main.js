@@ -39,17 +39,50 @@ if (chiragAge === juliAge) {
 
 // Sorting an Array
 // Ex1
-
 var cabTeam = ["chirag", "lucas", "ottavia", "moe", "odeb", "laura"];
 // alphabetical sorting
-cabTeam.sort();
-console.log(cabTeam[0]);
-console.log(cabTeam[5]);
-console.log(cabTeam);
+// for (i = 0; i = cabTeam.length; i++)
+// {
+//     cabTeam.sort();
+//     console.log(cabTeam);
 
-// EX 2
+// }
+// cabTeam.sort();
+// console.log(cabTeam[0]);
+// console.log(cabTeam[5]);
+// console.log(cabTeam);
+
 // Looping over an Array
+// EX 2
 
+// Functions that use Arrays
+// EX 3
+// EX 4
+// EX 5
+// EX 6
+// EX 7
+
+// JavaScript String
+// EX 1
+// EX 2
+// EX 3
+// EX 4
+
+// Epic 2: DOM Manipulation
+// EX 1
+// EX 2
+
+// Extra: Function exercises
+// EX 1
+// EX 2
+// EX 3
+// EX 4
+// EX 5
+// EX 6
+// EX 7
+// EX 8
+// EX 9
+// EX 10
 
 
 
