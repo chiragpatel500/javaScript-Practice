@@ -44,7 +44,7 @@
 // step 2:sorting alphabetically and printing first and last names.
 // cabTeam.sort();
 // console.log(cabTeam[0]);
-// console.log(cabTeam[5]);
+// console.log(cabTeam.[5]);
 // step 3:using for loop to print all the names.
 // for (var index = 0; index < cabTeam.length; index++){
 //     console.log(cabTeam[index]);
@@ -58,7 +58,7 @@
 // var i = 0;
 // // step 2:iterate array using while loop and print all ages in console.
 // while (i < ageArray.length) {
-//     // print all the ages Comment- console.log(ageArray[i]); to see even ages.
+//     // print all the ages        Comment- console.log(ageArray[i]); to see even ages.
 //     console.log(ageArray[i]);
 //     i++;
 // // step 3:add conditional inside while loop to print only even numbers.  
@@ -114,18 +114,46 @@
 // step 1:write a function to join all elements of the following array into a string.
 // myColor = ["Red", "Green", "White", "Black"];
 
-// function arrayJoin(array,delimiter) {
-//   return array.join(delimiter);
+// function arrayJoin(array) {
+//     console.log(array.join());
 // }
-// console.log( arrayJoin(myColor));
-
+// arrayJoin(myColor);
 
 // JavaScript String
 // EX 1
-// EX 2
-// EX 3
-// EX 4
+// step 1:Write a function that reverse a number.
+// var x = 32443
+// var dblArray = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
+// function reverseNumber(num) {
+// 	num = num + "";
+//     console.log(num.split("").reverse().join(""));
+// };
+// reverseNumber(x);
 
+// EX 2
+// step 1:write a function that returns string on alphabetcial order.
+// var x = 'webmaster';
+// var a = 'chirag';
+// function alphaOrder(string) {
+//     console.log(string.split('').sort().join(''));
+// }
+// alphaOrder(x);
+
+// EX 3: attention needed With For loop.
+// Step 1:write a function that converts first letter of word to uppercase.
+// x = "prince of persia";
+// function upperCase(string) {
+//     console.log(string.charAt(0).toUpperCase() + string.slice(1));
+// };
+// upperCase(x);
+// EX 4
+// step 1:write a function to print the longest the world in the sentence.
+// x = "Web Development Tutorial";
+
+// function longestWord(string) {
+// }
+
+// longestWord(x);
 // Epic 2: DOM Manipulation
 // EX 1
 // EX 2
