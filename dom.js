@@ -34,18 +34,30 @@
 // Write a function called addMultTable(rows, cols) that will create a multiplication table like this. Start with an empty HTML page that only contains a level 1 heading.
 // Your function should use the JavaScript DOM to insert an HTML table after the heading.
 // For example, if I call:// addMultTable(4, 8);
-// It will create an HTML table with 4 rows and 8 columns, and append it after the level 1 heading.
-//   Creating a new table with html TABLE tag. 
+// It will create an HTML table with 4 rows and 8 columns, 
+// and append it after the level 1 heading.
+
+// // writing the function
+// function addMultTable(rows, col) {
+//     //   Creating a new table with html TABLE tag. 
 //     var tab = document.createElement("TABLE");
 
-// writing the function
-// function addMultTable(rows, col) {
-//     var newRow = tab.insertRow();
-//     var newColl = tab.insertCell();
-
-//  body.appendChild.tab
+// //   for loop to create multiple rows and colums.
+//     for (let i = 0; i < rows; i++) {
+//     //  inserting row to the table
+//         var row = tab.insertRow(0);
+//         // inserting colums cells using  for loop
+//       for (let i = 0; i < col; i++) {
+//         //  inserting column cell
+//           newCell = row.insertCell(0);
+//       }
+//   }
+// //  append it after the level 1 heading.
+// document.body.appendChild(tab);
 
 // console.log(addMultTable);
 // }
 // // Calling the function
 // addMultTable(4, 8);
+
+
