@@ -46,7 +46,7 @@
 //     for (let i = 0; i < rows; i++) {
 //     //  inserting row to the table
 //         var row = tab.insertRow(0);
-//         // inserting colums cells using  for loop
+//         // inserting colums multiple cells using  for loop
 //       for (let i = 0; i < col; i++) {
 //         //  inserting column cell
 //           newCell = row.insertCell(0);
