@@ -97,9 +97,11 @@
 // var egArray = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
 // var index = 1;
 // function twoPara(array, index) {
-//         console.log(array[index])
+//         return array[index]
 // };
-// twoPara(egArray, index);
+
+// var paraSecond = twoPara(egArray, index);
+// console.log(paraSecond);
 
 // // EX 6 : Attention required
 // // step 1:write a function a that takes an array print the value that repeat;
@@ -110,14 +112,21 @@
 // };
 // findCopy(dblArray);
 
-// EX 7 : Attention required
+// EX 7 :
 // step 1:write a function to join all elements of the following array into a string.
 // myColor = ["Red", "Green", "White", "Black"];
 
 // function arrayJoin(array) {
-//     console.log(array.join());
-// }
-// arrayJoin(myColor);
+//     var joinedArray = [];
+//     for (i = 0; i < array.length; i++){
+//         joinedArray.push('"' + array[i] + '"')
+//     }
+//     console.log(joinedArray);
+//     return joinedArray.join()
+// };
+// var finalString = arrayJoin(myColor);
+// console.log(finalString);
+
 
 // JavaScript String
 // EX 1
@@ -143,9 +152,21 @@
 // Step 1:write a function that converts first letter of word to uppercase.
 // x = "prince of persia";
 // function upperCase(string) {
-//     console.log(string.charAt(0).toUpperCase() + string.slice(1));
+//     var splittedString = string.split(" ");
+//     console.log(splittedString);
+//     var finalArray = [];
+//     for (let i = 0; i < splittedString.length; i++) {
+//         var element = splittedString[i];
+//         console.log(element);
+//         var capword = element.charAt(0).toUpperCase() + element.slice(1);
+//         finalArray.push(capword)
+//     }
+//     console.log(finalArray);
+//     console.log(finalArray.join(' '))
+
 // };
 // upperCase(x);
+
 
 // EX 4: attention needed.
 // step 1:write a function to print the longest the world in the sentence.
