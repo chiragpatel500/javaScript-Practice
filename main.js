@@ -146,6 +146,7 @@
 //     console.log(string.charAt(0).toUpperCase() + string.slice(1));
 // };
 // upperCase(x);
+
 // EX 4: attention needed.
 // step 1:write a function to print the longest the world in the sentence.
 // x = "Web Development Tutorial";
