@@ -7,10 +7,50 @@
 // For example, if I call: addBands(['Dire Straits', 'Kansas', 'Steely Dan']);
 // The function will add three list items to the unordered list.
 
-//  step 1: select items and store with refrence. 
-// var list = document.getElementById(band-list);
-// // step 2:create function
-// function addBands() {
+// // array
+// let myBandList = ['Dire Straits', 'Kansas', 'Steely Dan'];
+// // select the dom elemnt to be manipulated
+// var newlist = document.getElementById("band-list");
 
+// // function
+// function addBands(array) {    
+//     // for loop to loop through
+//     for (let i = 0; i < array.length; i ++) {
+//         //creating a new list element  using HTML LI TAG and assinging it to variable called ulLIST
+//         var ulList = document.createElement("li");
+//         // assigning newlyCreated list to an array
+//         ulList.innerHTML = array[i]
+//         // adding newly Created list array to the selected domelement 
+//         newlist.appendChild(ulList)
+//     }
+//     console.log(addBands);
+// };
+
+// // calling the function
+// addBands(myBandList);
+
+
+// Exercise 2
+// Write a function called addMultTable(rows, cols) that will create a multiplication table like this. Start with an empty HTML page that only contains a level 1 heading.
+// Your function should use the JavaScript DOM to insert an HTML table after the heading.
+// For example, if I call:// addMultTable(4, 8);
+// It will create an HTML table with 4 rows and 8 columns, and append it after the level 1 heading.
+
+// function 
+// function addMultTable(rows, col) {
+//     // Creating a new table with html TABLE tag. 
+//     var tab = document.createElement("TABLE");
+    
+//     document.body.appendChild(tab);
+    
+//     for (let i = 0; i < rows; i++) {
+//         row = tab.insertRow(0);
+//             for (let i = 0; i < col; i++) {
+//             insertedCell = row.insertCell(0);
+//         }
+//     }
+//     document.body.appendChild(tab);
 // }
-//  step 3:call the function
+
+// // // Calling the function
+// addMultTable(4, 5);
