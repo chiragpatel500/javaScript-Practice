@@ -35,12 +35,17 @@
 // Your function should use the JavaScript DOM to insert an HTML table after the heading.
 // For example, if I call:// addMultTable(4, 8);
 // It will create an HTML table with 4 rows and 8 columns, and append it after the level 1 heading.
-
-// function 
-// function addMultTable(rows, col) {
-//     // Creating a new table with html TABLE tag. 
+//   Creating a new table with html TABLE tag. 
 //     var tab = document.createElement("TABLE");
-    
 
-// // // Calling the function
-// addMultTable(4, 5);
+// writing the function
+// function addMultTable(rows, col) {
+//     var newRow = tab.insertRow();
+//     var newColl = tab.insertCell();
+
+//  body.appendChild.tab
+
+// console.log(addMultTable);
+// }
+// // Calling the function
+// addMultTable(4, 8);
