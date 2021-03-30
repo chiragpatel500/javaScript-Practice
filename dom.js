@@ -41,16 +41,6 @@
 //     // Creating a new table with html TABLE tag. 
 //     var tab = document.createElement("TABLE");
     
-//     document.body.appendChild(tab);
-    
-//     for (let i = 0; i < rows; i++) {
-//         row = tab.insertRow(0);
-//             for (let i = 0; i < col; i++) {
-//             insertedCell = row.insertCell(0);
-//         }
-//     }
-//     document.body.appendChild(tab);
-// }
 
 // // // Calling the function
 // addMultTable(4, 5);
