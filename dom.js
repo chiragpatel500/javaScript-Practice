@@ -37,7 +37,7 @@
 // It will create an HTML table with 4 rows and 8 columns, 
 // and append it after the level 1 heading.
 
-// // writing the function
+// // // writing the function
 // function addMultTable(rows, col) {
 //     //   Creating a new table with html TABLE tag. 
 //     var tab = document.createElement("TABLE");
