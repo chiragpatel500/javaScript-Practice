@@ -148,7 +148,7 @@
 // }
 // alphaOrder(x);
 
-// EX 3: attention needed With For loop.
+// EX 3: 
 // Step 1:write a function that converts first letter of word to uppercase.
 // x = "prince of persia";
 // function upperCase(string) {
