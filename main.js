@@ -188,7 +188,7 @@
 // upperCase(x);
 
 
-// EX 4: attention needed.
+// EX 4: 
 // step 1:write a function to print the longest the world in the sentence.
 // x = "Web Development Tutorial";
 // // Write the function to find longestword
@@ -208,22 +208,116 @@
 // }
 
 // findLongestWord(x);
-// Epic 2: DOM Manipulation
-// EX 1
-// EX 2
 
 // Extra: Function exercises
-// EX 1
-// EX 2
-// EX 3
-// EX 4
-// EX 5
-// EX 6
-// EX 7
-// EX 8
-// EX 9
-// EX 10
+// Exercise 1
+// Write a JavaScript function that returns nothing and has no parameters. This function should print the result of the multiplication of two numbers (the numbers that you want).
+//     function multiply() {
+//         console.log(5 * 5);
+// }
+// multiply();
+// Exercise 2
+// Write a JavaScript function with no parameters. This function should return the result of the multiplication of two numbers (the numbers that you want), and in your main program, you should print the result.
+// Tip: if a function returns something, you can assign the function call to a variable. In this way, the value of the return will be held by this variable.
+// function noParaMulti() {
+//     return nine = 3 * 3;
+// }
+// noParaMulti();
+// console.log(nine);
+// Exercise 3
+// Write a JavaScript function with two parameters. These parameters are the numbers that have to be multiplied. The function should return the result of the multiplication of both numbers (the numbers that you want), and in your main program, you should print the result. Test the function with 3 examples.
 
+// function multiplied(a, b) {
+//     return a * b;
+// }
+// console.log(multiplyplied(3,10));
+// console.log(multiplyplied(4, 9));
+// console.log(multiplyplied(5,10));
+
+// Exercise 4
+// Write a function that determines the type of a triangle given the length of its three sides.
+
+// Exercise 5
+// Write a function that receives as a parameter an array of characters and replaces all "a" by "1". e.g.: JavaScript will become J1v1Script.
+// var jsArray = "JavaScript";
+// var arraySpliter = jsArray.split("");
+// function characterChanger(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] == "S") {
+//             array[i] = 3;
+//         }
+//     }
+// }    
+// characterChanger(arraySpliter);
+// console.log(arraySpliter);
+
+
+// Exercise 6
+// Write two functions. The first one should return the sum of all the elements of an array and the second one should return the smallest number in the array. Print the result in the main program.
+
+// Exercise 7
+// Write a function that adds the even numbers of an array. For example, the array: 1 2 8 3 2 would result in the sum of 2 + 8 + 2, since they are even numbers. Return the result and print it in the main program.
+// var array = [1, 2, 8, 3, 2];
+// function evenTotal(array) {
+//     var total = null;
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] % 2 == 0) {
+//             total = total + array[i];
+//         }   
+//     }
+//     console.log(total)
+// }
+// evenTotal(array);
+
+// Exercise 8
+// Write a function that adds the even positions of an array. For example, the array: 1 2 8 3 2 3 4 would result in the sum of 8 + 2 + 4 since they are in even positions in the array (position 2,4,6). Return the result and print it in the main program.
+
+// let array = [1, 2, 8, 3, 2, 3, 4];
+// function evenPosTotal(array) {
+//     var total = null;
+//     for (let i = 0; i < array.length; i++) {
+//         if (i % 2 == 0 && i > 0) {
+//             total = total + array[i];
+//         }
+//     }
+//     console.log(total)
+// }
+// evenPosTotal(array);
+// Exercise 9
+// Write a function that by sending a number as parameter, tells you all the even numbers before it. For example, if you send to the function the number 9, it should print 2,4,6,8.
+
+// function beforeEvenNumTeller(num) {
+//     for (let i = 0; i < num; i++) {
+//         if (i != 0 && i % 2 == 0) {
+//             console.log(i);
+//         }
+//     }
+// }
+// beforeEvenNumTeller(num);
+
+// Exercise 10
+// Write a function that by sending two numbers as parameters, it tells you the odd numbers between these. For instance, if you send the numbers 1 and 13 as parameters, it should print 1,3,5,7,9,11,13.
+// function oddBet(num1, num2) {
+//     var i = 0;
+//     var top = 0;
+//     if (num1 < num2) {
+//         i = num1;
+//         top = num2;     
+//     } else if (num1 > num2) {
+//         i = num2
+//         top = num1
+//     } else {
+//         return console.log("same, nothing in line")
+//     } 
+//     while (i <= top) {
+//         if (i%2!=0) {
+//             console.log(i);
+//         }
+//         i++;        
+//     }
+// }
+
+// oddBet(10,25);
 
 
 
