@@ -37,11 +37,11 @@
 // It will create an HTML table with 4 rows and 8 columns, 
 // and append it after the level 1 heading.
 
-// // // writing the function
-// function addMultTable(rows, col) {
-//     //   Creating a new table with html TABLE tag. 
-//     var tab = document.createElement("TABLE");
+// //   Creating a new table with html TABLE tag.
+// var tab = document.createElement("TABLE");
 
+// // // writing the function using the mutiple loops to add rows and colmuns.
+// function addMultTable(rows, col) {
 // //   for loop to create multiple rows and colums.
 //     for (let i = 0; i < rows; i++) {
 //     //  inserting row to the table
@@ -52,12 +52,13 @@
 //           newCell = row.insertCell(0);
 //       }
 //   }
+// console.log(addMultTable);
+// };
+
 // //  append it after the level 1 heading.
 // document.body.appendChild(tab);
 
-// console.log(addMultTable);
-// }
 // // Calling the function
-// addMultTable(4, 8);
+// addMultTable(5, 7);
 
 
