@@ -103,12 +103,32 @@
 // var paraSecond = twoPara(egArray, index);
 // console.log(paraSecond);
 
-// // EX 6 : Attention required
-// // step 1:write a function a that takes an array print the value that repeat;
+// // // EX 6 : 
+// // // step 1:write a function a that takes an array print the value that repeat;
 // var dblArray = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
-
+// //write the function
 // function findCopy(array) {
-    
+//     // create an empty array
+//     var dupArray = [];
+//     // use nested for loops with conditionals.
+//     for (let i = 0; i < array.length; i ++) {
+//         const element = array[i];
+//         for (let g = 0; g < array.length; g ++) {
+//             const element1 = array[g];
+//         //    check if both elements(indexes) are notsame.
+//             if (i !== g) {
+//                 // check if both elemnts(values) are same.
+//                 if (element == element1) {
+//                     console.log(element)
+//                     // check if the emptyarray containsalreday the element.
+//                     if (!dupArray.includes(element)) {
+//                       dupArray.push(element)    
+//                     }         
+//             }
+//         }
+//         }
+//     }
+//      console.log(dupArray);
 // };
 // findCopy(dblArray);
 
@@ -171,11 +191,23 @@
 // EX 4: attention needed.
 // step 1:write a function to print the longest the world in the sentence.
 // x = "Web Development Tutorial";
+// // Write the function to find longestword
+// function findLongestWord(string) {
+//     // split the strings and assign it to a varibale for next use
+//     var words = string.split(" ");
+//     // assigns Html words index to a key word for next use
+//     var longestWord = words[0];
+//     // write a for loop the loop multiple times though the string. 
+//     for (var i = 1; i < words.length; i++) {
+//     if(longestWord.length < words[i].length) {
+//       longestWord = words[i];
+//     } 
+//   }
+// console.log(longestWord)
 
-// function longestWord(string) {
 // }
 
-// longestWord(x);
+// findLongestWord(x);
 // Epic 2: DOM Manipulation
 // EX 1
 // EX 2

@@ -17,11 +17,11 @@
 //     // for loop to loop through
 //     for (let i = 0; i < array.length; i ++) {
 //         //creating a new list element  using HTML LI TAG and assinging it to variable called ulLIST
-//         var ulList = document.createElement("li");
+//         let listItem = document.createElement("li");
 //         // assigning newlyCreated list to an array
-//         ulList.innerHTML = array[i]
+//         listItem.innerHTML = array[i]
 //         // adding newly Created list array to the selected domelement 
-//         newlist.appendChild(ulList)
+//         newlist.appendChild(listItem)
 //     }
 //     console.log(addBands);
 // };
@@ -40,6 +40,7 @@
 // //   Creating a new table with html TABLE tag.
 // var tab = document.createElement("TABLE");
 
+// var para = " new para";
 // // // writing the function using the mutiple loops to add rows and colmuns.
 // function addMultTable(rows, col) {
 // //   for loop to create multiple rows and colums.
@@ -54,11 +55,11 @@
 //   }
 // console.log(addMultTable);
 // };
-
+// tab.innerHTML = para;
 // //  append it after the level 1 heading.
 // document.body.appendChild(tab);
 
 // // Calling the function
-// addMultTable(5, 7);
+// addMultTable(4, 10);
 
 
