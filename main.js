@@ -132,16 +132,21 @@
 // };
 // findCopy(dblArray);
 
-// EX 7 :
-// step 1:write a function to join all elements of the following array into a string.
+// EX 7 :write a function to join all elements of the following array into a string.
+// step 1:define array.
 // myColor = ["Red", "Green", "White", "Black"];
 
+// step 2:write the function
 // function arrayJoin(array) {
+        // assign an empty array which has to be outputed to an variable. 
 //     var joinedArray = [];
+// write a for loop to loop through multiple times.
 //     for (i = 0; i < array.length; i++){
+        // push the string to to an empty array.
 //         joinedArray.push('"' + array[i] + '"')
 //     }
 //     console.log(joinedArray);
+    // join the output array with the empty array.
 //     return joinedArray.join()
 // };
 // var finalString = arrayJoin(myColor);
