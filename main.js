@@ -113,15 +113,15 @@
 //     // use nested for loops with conditionals.
 //     for (let i = 0; i < array.length; i ++) {
 //         const element = array[i];
-//         for (let g = 0; g < array.length; g ++) {
-//             const element1 = array[g];
+//        for (let g = 0; g < array.length; g ++) {
+//            const element1 = array[g];
 //         //    check if both elements(indexes) are notsame.
-//             if (i !== g) {
+//            if (i !== g) {
 //                 // check if both elemnts(values) are same.
-//                 if (element == element1) {
-//                     console.log(element)
+//                if (element == element1) {
+//                    console.log(element)
 //                     // check if the emptyarray containsalreday the element.
-//                     if (!dupArray.includes(element)) {
+//                    if (!dupArray.includes(element)) {
 //                       dupArray.push(element)    
 //                     }         
 //             }
@@ -200,12 +200,12 @@
 // function findLongestWord(string) {
 //     // split the strings and assign it to a varibale for next use
 //     var words = string.split(" ");
-//     // assigns Html words index to a key word for next use
-//     var longestWord = words[0];
+//     // assigns Html word index to a key word for next use
+//     var longestWord = word[0];
 //     // write a for loop the loop multiple times though the string. 
-//     for (var i = 1; i < words.length; i++) {
-//     if(longestWord.length < words[i].length) {
-//       longestWord = words[i];
+//     for (let i = 1; i < word.length; i++) {
+//     if(longestWord.length < word[i].length) {
+//       longestWord = word[i];
 //     } 
 //   }
 // console.log(longestWord)
@@ -229,6 +229,7 @@
 // }
 // noParaMulti();
 // console.log(nine);
+
 // Exercise 3
 // Write a JavaScript function with two parameters. These parameters are the numbers that have to be multiplied. The function should return the result of the multiplication of both numbers (the numbers that you want), and in your main program, you should print the result. Test the function with 3 examples.
 
