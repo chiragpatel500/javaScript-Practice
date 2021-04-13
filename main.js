@@ -130,7 +130,7 @@
 //     }
 //      console.log(dupArray);
 // };
-// findCopy(dblArray);
+//         findCopy(dblArray);
 
 // EX 7 :write a function to join all elements of the following array into a string.
 // step 1:define array.
