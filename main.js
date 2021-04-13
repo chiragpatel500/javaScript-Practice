@@ -108,29 +108,7 @@
 // var dblArray = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
 // //write the function
 // function findCopy(array) {
-//     // create an empty array
-//     var dupArray = [];
-//     // use nested for loops with conditionals.
-//     for (let i = 0; i < array.length; i ++) {
-//         const element = array[i];
-//        for (let g = 0; g < array.length; g ++) {
-//            const element1 = array[g];
-//         //    check if both elements(indexes) are notsame.
-//            if (i !== g) {
-//                 // check if both elemnts(values) are same.
-//                if (element == element1) {
-//                    console.log(element)
-//                     // check if the emptyarray containsalreday the element.
-//                    if (!dupArray.includes(element)) {
-//                       dupArray.push(element)    
-//                     }         
-//             }
-//         }
-//         }
-//     }
-//      console.log(dupArray);
-// };
-// findCopy(dblArray);
+
 
 // EX 7 :write a function to join all elements of the following array into a string.
 // step 1:define array.
